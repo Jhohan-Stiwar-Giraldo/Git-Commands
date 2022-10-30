@@ -1,18 +1,6 @@
 Git Commands
-============
-
-## Translated Versions
-- [Versão em português](READMEpt.md)
-- [Versión en español](READMEes.md)
-- [Türkçe versiyon](READMEtr.md)
-- [বাংলা সংস্করণ](READMEbn.md)
-
-___
 
 _A list of my commonly used Git commands_
-
-*If you are interested in my Git aliases, have a look at my `.bash_profile`, found here: https://github.com/joshnh/bash_profile/blob/master/.bash_profile*
-
 --
 
 ### Getting & Creating Projects
@@ -30,7 +18,9 @@ _A list of my commonly used Git commands_
 | `git add [file-name.txt]` | Add a file to the staging area |
 | `git add -A` | Add all new and changed files to the staging area |
 | `git commit -m "[commit message]"` | Commit changes |
-| `git rm -r [file-name.txt]` | Remove a file (or folder) |
+| `git rm -r [file-name.txt]` | Remove a file (or folder)|
+| `git rm --cached file_name` | Remove from staging area|
+| `git rm -rf [folder´s name]` | Remove a folder|
 
 ### Branching & Merging
 
